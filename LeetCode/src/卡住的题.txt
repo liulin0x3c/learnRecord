@@ -1,0 +1,2 @@
+https://leetcode.cn/problems/3sum/submissions/
+https://leetcode.cn/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode-solution/
