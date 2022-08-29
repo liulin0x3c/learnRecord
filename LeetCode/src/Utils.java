@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Utils {
@@ -36,5 +37,13 @@ public class Utils {
             ret.append("\n");
         }
         return ret.toString();
+    }
+    public static int[] String2Array(String string) {
+        String[] strings = string.split(",");
+        int[] ans = new int[strings.length - 2];
+        for (int i = 1; i < strings.length - 1; i++) {
+            ans[i-1] = Integer.parseInt(strings[i]);
+        }
+        return ans;
     }
 }
